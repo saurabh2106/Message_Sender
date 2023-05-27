@@ -1,0 +1,61 @@
+body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+
+button {
+    cursor: pointer;
+    padding: 20px 20px;
+    color: #fff;
+    background-image: linear-gradient(to right,#ffafbd , #ffc3a0);
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 5vh 97vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15vh;
+    background-color: #918a8a;
+    width: 50% ;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.msginput{
+    height: 5vh;
+    width: 100vh;
+    padding: 7px;
+    outline: none;
+    margin: 18px 0px;
+    border: solid 3px green;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+#subbtn {
+    cursor: pointer;
+    padding: 20px 20px;
+    color: #fff;
+    background-color: #0f6642;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 1vh 97vh;
+}
+
+#seeMsg{
+    color: blueviolet;
+}
+
+#feedback {
+    display: block;
+}
+.show {
+    display: block;
+}
